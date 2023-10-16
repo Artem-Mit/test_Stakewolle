@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.accounts__text {
+  font-size: 25px;
+}
+
+.list {
+  font-size: 25px;
+}
+
+.listItem__span {
+  font-size: 20px;
+  color: red;
+}
